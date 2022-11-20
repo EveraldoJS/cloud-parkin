@@ -5,6 +5,7 @@ public class ParkingCreateDTO {
     private String license;
     private String state;
     private String model;
+    private String color;
 
     public String getLicense() {
         return license;
@@ -38,6 +39,6 @@ public class ParkingCreateDTO {
         this.color = color;
     }
 
-    private String color;
+
 
 }
